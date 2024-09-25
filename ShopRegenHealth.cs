@@ -42,7 +42,7 @@ namespace ShopRegenHealth
         {
             if (JsonHealthRegen == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Ðåãåíåðàöèÿ çäîðîâüÿ");
+            SHOP_API.CreateCategory(CategoryName, "Ð ÐµÐ³ÐµÐ½ÐµÑ€Ð°Ñ†Ð¸Ñ Ð·Ð´Ð¾Ñ€Ð¾Ð²ÑŒÑ");
 
             foreach (var item in JsonHealthRegen.Properties().Where(p => p.Value is JObject))
             {
